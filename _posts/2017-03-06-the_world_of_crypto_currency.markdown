@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "***The world of crypto currency****"
-date:   2017-03-06 11:39:43 +0000
+date:   2017-03-06 06:39:44 -0500
 ---
 
 ![](http://i.imgur.com/miQAoF5.jpg?1)
@@ -17,7 +17,7 @@ Bitcoin is a crypto currency. There are many crypto currencies today, the main o
 ![](http://i.imgur.com/w0knO34.pnghttp://)
 
 **The growth of bitcoin**
-Started in 2009 after the financial crisis the original Bitcoins which were worth less than a penny in 2010 are now worth more than 1000$ each, and are now worth more than gold. Insert chart of Bitcoin growth. As as you can see from the chart no other type of investment has had the kind of crazy returns over the last six years that Bitcoin has had!
+Started in 2009 after the financial crisis the original Bitcoins which were worth less than a penny in 2010 are now worth more than 1000$ each, and are now worth more than gold. As as you can see from the chart no other type of investment has had the kind of crazy returns over the last six years that Bitcoin has had!
 
 ![](http://i.imgur.com/Rq2jR2q.jpghttp://)
 
