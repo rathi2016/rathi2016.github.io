@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "BIG O NOTATION "
-date:   2017-03-16 04:03:11 +0000
+date:   2017-03-16 00:03:12 -0400
 ---
 
 Hope for the best and prepare for the worst ....  
 
-Big-O notation used to be a really scary concept for me. I thought this is how "real" programmers talked about their code. It was all the more scary because the academic descriptions (such as Wikipedia) made very little sense to me. This is frustrating because the underlying concepts aren't actually that hard.
+Big-O notation used to be a really scary concept for me. I thought this is how "real" programmers talked about their code. It was all the more scary because the academic descriptions (such as Wikipedia) made very little sense to me. This is frustrating because the underlying concepts aren't actually that hard. Few things i thought will be helful to write about in my first blog about algorithm 
+and big O notation 
 
 **Why do we want to analyze algorithm ? **
 
