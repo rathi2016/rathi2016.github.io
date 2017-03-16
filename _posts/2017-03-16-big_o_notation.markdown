@@ -33,6 +33,7 @@ Efficiency is measured in terms of space and time, By analyzing, we can compare 
 
  Determining the running time increase related to the size of the input value.
 Input = n values  
+![](http://i.imgur.com/jbBqqGo.png)
 Some definition to know –
 Rate of Growth: the rate at which running time increases as a function of input. 
 Lower order Term: When given an approximation of the rate of growth of a function, we tend to drop the lower order terms as they are less significant to higher order terms.
