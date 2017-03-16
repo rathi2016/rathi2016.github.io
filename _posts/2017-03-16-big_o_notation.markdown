@@ -40,10 +40,9 @@ Lower order Term: When given an approximation of the rate of growth of a functio
 
 ![](http://i.imgur.com/q8vutzO.png)
 
-Therefore,we will only take Higher order term,   f(n) = n3 +  n  and  we right 
-    big O notation as - O(n3) 
-		
-		Type of analysis – We can analyze an algorithm in 3 ways: 
+Therefore,we will only take Higher order term,   f(n) = n3 +  n  and  we write big O notation as - O(n3)
+	
+Type of analysis - We can analyze an algorithm in 3 ways:
 
 ![](http://i.imgur.com/IfFJ96k.png)  
 
