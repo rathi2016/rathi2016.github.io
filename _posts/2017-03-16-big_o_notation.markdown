@@ -44,6 +44,7 @@ Therefore,we will only take Higher order term,   f(n) = n3 +  n  and  we right
     big O notation as - O(n3) 
 		
 		Type of analysis – We can analyze an algorithm in 3 ways: 
+
 ![](http://i.imgur.com/IfFJ96k.png)  
 
   Most of the time we use the Big –Oh notation because this is the most practically used  one among the three. On best case, we cannot rely and average case is less useful than the average case, well this made me think about our real life situation of “Hoping for the best and preparing for the worst”  
