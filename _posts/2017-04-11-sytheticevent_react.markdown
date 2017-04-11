@@ -5,7 +5,7 @@ date:   2017-04-10 23:10:39 -0400
 ---
 
 
- 	 In React, when we specify an event in JSX like we did with onClick, we are not directly dealing with regular DOM events. Instead, we are dealing with a React-specific event type known as a SyntheticEvent. Your event handlers don't get native event arguments of type MouseEvent, KeyboardEvent, etc. They always get event arguments of type SyntheticEvent that wrap your browser's native event instead. What is the fallout of this in our code? Surprisingly not a whole lot.
+ In React, when we specify an event in JSX like we did with onClick, we are not directly dealing with regular DOM events. Instead, we are dealing with a React-specific event type known as a SyntheticEvent. Your event handlers don't get native event arguments of type MouseEvent, KeyboardEvent, etc. They always get event arguments of type SyntheticEvent that wrap your browser's native event instead. What is the fallout of this in our code? Surprisingly not a whole lot.
 	 
  	 
 ```
@@ -23,7 +23,7 @@ function ActionLink() {
 }
 ```
 	 
-	  Here, e is a synthetic event. When using React i realized we  should generally not need to call addEventListener to add listeners to a DOM element after it is created. Instead, just provide a listener when the element is initially rendered.
+Here, e is a synthetic event. When using React i realized we  should generally not need to call addEventListener to add listeners to a DOM element after it is created. Instead, just provide a listener when the element is initially rendered.
 	 
 Each SyntheticEvent contains the following properties:
 
