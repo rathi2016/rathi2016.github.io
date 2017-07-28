@@ -4,7 +4,7 @@ title:  "Why using Module in Ruby ? ? ?"
 date:   2017-07-28 16:14:15 -0400
 ---
 
-Posted by rathi2016 on July 28, 2017
+
 
 Realized that more you learn about certain subject the clearer the concepts get, one such concept in ruby was about module. when came across the term module for the first time I made a rough sketch about how module work in my head and according to that sketch it was just the hgelper method which i can call in the my current method. But as we as the ruby coder know ruby is not just about methods but it has classes too. When took further steps closer to the understanding about the ruby it was more like research on certain species,ooh yes!!!! MODULE is different species
 
