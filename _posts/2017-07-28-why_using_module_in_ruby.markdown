@@ -40,6 +40,7 @@ def timer
 
 end 
 ```
+
 example1.rb have functionality to put current year and example2.rb to put current day when it is called but both have same method name prity much by now you can smell the coming problem, & if we end up[ requiring both the files i.e
 
 ```
@@ -88,6 +89,7 @@ module ToolBox
  end
 end
 ```
+
 ```
 module Country 
  def Ruler
@@ -95,6 +97,7 @@ module Country
  end 
 end 
 ```
+
 This is how we can call class with same name but kept in different module
 
   ```
