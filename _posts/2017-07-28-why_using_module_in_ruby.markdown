@@ -53,43 +53,57 @@ Conflict!!!! result in example2.rb will be loaded & this situation is known as n
 
 Module can help solve these conflicts: ex1.rb
 
+```
 module Year
   def timer
 	  time1 = Time.new
     puts "Current Year: " + time1.year
 	end 
 end 
-ex2.rb
+```
 
+**ex2.rb**
+
+```
 module Day
  def timer
   time2 = Time.new
   puts "Current Day : "+ time2.day
  end 
 end 
+```
+
 So in order to call result specific to functionality we made two separate module taking care of individual functionality,
 
+```
 puts Year.timer
 puts Day.timer
+```
 I love this example of class Ruler which shows how module help is creating namspacing with same class name
 
+```
 module ToolBox
  class Ruler
   attr_accessor :length
  end
 end
+```
+```
 module Country 
  def Ruler
   attr_accessor :length
  end 
 end 
+```
 This is how we can call class with same name but kept in different module
 
-   a = ToolBox::Ruler.new
+  ```
+ a = ToolBox::Ruler.new
 	 a.length = 50
 	 
 	 b = Country::Ruler.new
-	 b.name = "Alexander"						
+	 b.name = "Alexander"		
+```				
 							
 In the next blog I will take simple example like these and explain Mixins.Till then keep digging information to make a pile of knowledge in your brain.
 
