@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why using Module in Ruby ? ? ?"
+title:  "Use of Module in Ruby ? ? ?"
 date:   2017-07-28 16:14:15 -0400
 ---
 
