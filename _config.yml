@@ -1,10 +1,10 @@
 # Site settings
-title: Love For Coding 
+title: Coder = {"Life" : "coding" , "Dream": "coding" }
 header-img: img/home-bg.png
 email: rathind14@gmail.com
 copyright_name: rathi2016
 description: > # this means to ignore newlines until "baseurl:"
-  Be curious to learn new 
+  Be curious to learn new in language  
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rathi2016
