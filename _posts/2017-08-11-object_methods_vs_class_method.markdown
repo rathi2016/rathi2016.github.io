@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Object Methods vs. Class Method"
+title:  "Object Methods vs. Class Methods"
 date:   2017-08-11 14:47:11 -0400
 ---
 
