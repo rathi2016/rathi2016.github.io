@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Object Methods vs. Class Method"
-date:   2017-08-11 18:47:11 +0000
+date:   2017-08-11 14:47:11 -0400
 ---
 
 
