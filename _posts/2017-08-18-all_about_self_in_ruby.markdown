@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "All about "self" in Ruby"
-date:   2017-08-18 17:29:56 +0000
+date:   2017-08-18 13:29:57 -0400
 ---
 
 
@@ -27,7 +27,7 @@ class Mirror
 end
 
 g = Mirror.new
-g.reflect == g # => true
+g.reflect == g  o/p => true
 ```
 
 **Inside of a class method**
@@ -41,7 +41,7 @@ class Mirror
   end
 end
 
-Mirror.reflect == Mirror # => true
+Mirror.reflect == Mirror o/p => true
 ```
 
 It works the same with "class" methods inside of modules. For example:
@@ -52,7 +52,7 @@ module Mirror
     self
   end
 end 
-Mirror.reflect == Mirror # => true
+Mirror.reflect == Mirror o/p => true
 ```
 
 Remember, classes and modules are treated as objects in Ruby. So this behavior isn't that different from the instance method behavior we saw in the first example.
@@ -65,11 +65,11 @@ As you can see below, self points to the class or module that's in the process o
 ```
 
 class Mirror
-  self == Mirror # => true
+  self == Mirror o/p => true
 end 
 
 module Glass
-  self == Glass # => true
+  self == Glass o/p => true
 end 
 ```
 
@@ -82,6 +82,7 @@ Mixed-in methods behave just like "normal" instance or class methods when it com
 Even though the reflect method was defined in the module, its self is the instance of the class it was mixed into.
 
 ```
+
 module Reflection
   def reflect
     self
@@ -95,7 +96,7 @@ class Mirror
 end
 
 g = Mirror.new
-g.reflect == g # => true
+g.reflect == g o/p => true
 ```
 
 **Class methods**
@@ -112,7 +113,7 @@ class Mirror
   extend Reflection
 end
 
-Mirror.reflect == Mirror # => true
+Mirror.reflect == Mirror o/p => true
 
 Inside the metaclass
 Chances are you've seen this popular shortcut for defining lots of class methods at once.
@@ -142,6 +143,6 @@ end
 
 If you're running code outside of any class, Ruby still provides self. It points to "main", which is an instance of Object:
 
-`puts self.inspect # => main`
+`puts self.inspect o/p => main`
 
 
