@@ -103,6 +103,7 @@ g.reflect == g o/p => true
 
 When we extend a class to mix in class methods, self behaves exactly like it does in normal class methods.
 
+```
 module Reflection
   def reflect
     self
@@ -114,10 +115,13 @@ class Mirror
 end
 
 Mirror.reflect == Mirror o/p => true
+```
 
-Inside the metaclass
+**Inside the metaclass**
+
 Chances are you've seen this popular shortcut for defining lots of class methods at once.
 
+```
 class Mirror
   class << self 
     def method1
@@ -127,10 +131,11 @@ class Mirror
     end
   end
 end
+```
 
-The class << foo syntax is actually pretty interesting. It lets you access an object's metaclass - which is also called the "singleton class" or "eigenclass." I plan on covering metaclasses more deeply in a future post. But for now, you just need to know that the metaclass is where Ruby stores methods that are unique to a specific object.
+The `class << foo` syntax is actually pretty interesting. It lets you access an object's metaclass - which is also called the "singleton class" or "eigenclass." I plan on covering metaclasses more deeply in a future post. But for now, you just need to know that the metaclass is where Ruby stores methods that are unique to a specific object.
 
-If you access self from inside the class << foo block, you get the metaclass.
+If you access self from inside the `class << foo` block, you get the metaclass.
 
 ```
 class << "test"
