@@ -5,7 +5,7 @@ date:   2017-08-18 13:29:57 -0400
 ---
 
 
-One of the important key word used most oftenly is `self`. The value of self changes with the context it is used. Every new Ruby programmer should keep in there mind these golden words in ruby: " Everything in Ruby is object"  
+One of the important key word used most often is `self`. The value of self changes with the context it is used. Every new Ruby programmer should keep in there mind these golden words in ruby: " Everything in Ruby is object"  
 
 self is a special keyword which points to the object that "owns" the currently executing line of code.
 
@@ -13,7 +13,7 @@ In theory, self is pretty obvious. But in practice, it's easy for tricky situati
 
 ## Examples of self
 
-Its better to learn new concepts in coding with examples because it's easy to see the differences in different senarioes
+It's better to learn new concepts in coding with examples because it's easy to see the differences in different scenarios
 
 **Inside of an instance method**
 
@@ -149,6 +149,7 @@ end
 If you're running code outside of any class, Ruby still provides self. It points to "main", which is an instance of Object:
 
 `puts self.inspect o/p => main`
+
 
 
 
