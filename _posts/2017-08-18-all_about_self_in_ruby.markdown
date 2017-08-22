@@ -11,7 +11,7 @@ self is a special keyword which points to the object that "owns" the currently e
 
 In theory, self is pretty obvious. But in practice, it's easy for tricky situations to pop up. That's why I wrote this post
 
-## Examples of self
+**Examples of self:**
 
 It's better to learn new concepts in coding with examples because it's easy to see the differences in different scenarios
 
