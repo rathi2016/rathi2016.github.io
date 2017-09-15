@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " React & Redux close relation/difference"
-date:   2017-09-15 02:03:12 +0000
+date:   2017-09-14 22:03:13 -0400
 ---
 
 I specifically started writting this blog to write down what I started unfolding while seeing the difference of react & redux library. So first thing both are two separte javascript libraries. Then how are both related ? This blog can be helpful for begineers because when I started learing React then steped to Redux it became so confusing, that at one point I had no idea the difference and narrow gaps they hold. So enough about my confusing story let step to learn the difference they hold. 
