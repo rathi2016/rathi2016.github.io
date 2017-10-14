@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Router compared with Traditional Webpage Navigation"
-date:       2017-10-14 02:22:02 +0000
+date:       2017-10-13 22:22:03 -0400
 permalink:  react_router_compared_with_traditional_webpage_navigation
 ---
 
@@ -19,7 +19,7 @@ The purpose of react-router is to find a way around the process opted by traditi
 
 - Instead react-router intercept changes to URL. So instead of user trying to navigate to different page it stops the user to navigate and update the compont present on the current web-page.
 
-![](https://imgur.com/tNxQ4bJ.jpg?1)
+![](https://imgur.com/vZeDFiR.jpg?1)
 
 Block diagram above explains the flow of request and updation of react component.
 
