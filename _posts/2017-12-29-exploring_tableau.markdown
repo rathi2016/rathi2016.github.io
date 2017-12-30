@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Exploring Tableau"
-date:       2017-12-30 00:37:43 +0000
+date:       2017-12-29 19:37:44 -0500
 permalink:  exploring_tableau
 ---
 
@@ -15,7 +15,7 @@ Which are not a big hurdle in terms of steping in to the new world of learning d
 
 So its about having a data either in the form of spread sheets and then we feed the data on to the tableau and further with the help of different tools we can process to data to show in a visualing appealing ways.
 
-What can be done using tableau?
+**What can be done using tableau?**
 
 Many awsume things can be done using tableau and few such are:
 
